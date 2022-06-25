@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './App.css'
 import QuoteBox from './components/QuoteBox'
-import Button from './components/button';
+import Button from './components/Button';
 import quotes from "./quotes.json";
 
 function App() {
