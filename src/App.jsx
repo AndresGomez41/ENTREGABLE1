@@ -6,7 +6,7 @@ import Button from './components/Button';
 import quotes from "./quotes.json";
 
 function App() {
-
+  
   let randomIndex = Math.floor(Math.random() * quotes.length);
   let hue = Math.floor(Math.random() * 36) * 10;
   let bgColor = `hsl(${hue},50%,50%)`;

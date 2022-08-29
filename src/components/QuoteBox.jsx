@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import quotes from "../quotes.json";
 
 const QuoteBox = ({ color, index }) => {
+  
   return (
     <div className="quoteBox">
       <div>
